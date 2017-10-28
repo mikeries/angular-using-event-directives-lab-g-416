@@ -1,6 +1,6 @@
 function VoteController() {
     var vm = this;
-    
+
     vm.votes = 0;
 
     vm.incrementVotes = function () {
