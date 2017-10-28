@@ -1,12 +1,14 @@
 function VoteController() {
-    this.votes = 0;
+    var vm = this;
+    
+    vm.votes = 0;
 
-    this.incrementVotes = function () {
-      this.votes++
+    vm.incrementVotes = function () {
+      vm.votes++
     };
 
-    this.decrementVotes = function () {
-      this.votes--
+    vm.decrementVotes = function () {
+      vm.votes--
     };
 }
 
